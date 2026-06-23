@@ -227,15 +227,3 @@ Use [decisa-flutter](https://github.com/decisa-ai/decisa-flutter). Use
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
----
-
-## GitHub repository topics
-
-Suggested topics for [github.com/decisa-ai/decisa-android](https://github.com/decisa-ai/decisa-android):
-
-`android` · `kotlin` · `gradle` · `aar` · `mobile-attribution` · `attribution` ·
-`ad-attribution` · `mobile-ads` · `conversion-tracking` · `web2app` · `funnel2app` ·
-`play-install-referrer` · `deferred-deep-linking` · `capi` · `mcp` · `first-party-data` · `sdk` · `jetpack-compose`
-
-See [docs/discoverability.md](docs/discoverability.md) for the full checklist.
