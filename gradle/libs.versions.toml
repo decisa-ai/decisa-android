@@ -1,0 +1,24 @@
+[versions]
+agp = "8.3.0"
+kotlin = "1.9.22"
+okhttp = "4.12.0"
+installreferrer = "2.2"
+coroutines = "1.8.0"
+junit = "4.13.2"
+coroutines-test = "1.8.0"
+robolectric = "4.11.1"
+annotation = "1.7.1"
+
+[libraries]
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+installreferrer = { module = "com.android.installreferrer:installreferrer", version.ref = "installreferrer" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines-test" }
+androidx-annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
+junit = { module = "junit:junit", version.ref = "junit" }
+robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
